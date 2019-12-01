@@ -1,0 +1,37 @@
+@startgantt
+project starts the 2020/01/03
+saturday are closed
+sunday are closed
+
+[Requirements Gathering] lasts 2 weeks
+
+[Requirements Finalising] lasts 3 weeks
+[Requirements Finalising] starts at [Requirements Gathering]'s end
+
+[Risk Assessment] lasts 3 weeks
+[Risk Assessment] starts at [Requirements Gathering]'s end
+
+[Analysis Phase Complete] happens at [Risk Assessment]'s end
+
+[System Design] lasts 7 weeks
+[System Design] starts 5 days before [Risk Assessment]'s end
+
+[Test Design] lasts 7 weeks
+[Test Design] starts 14 days before [System Design]'s end
+
+[Design Phase Complete] happens at [Test Design]'s end
+
+[Implementation] lasts 12 weeks
+[Implementation] starts at [Test Design]'s end
+
+[Implementation Phase Complete] happens at [Implementation]'s end
+
+[Iteration Testing] lasts 5 weeks
+[Iteration Testing] starts at [Implementation]'s end
+
+[Verification & Validation] lasts 5 weeks
+[Verification & Validation] starts at [Iteration Testing]'s end
+
+[Testing Phase Complete] happens at [Verification & Validation]'s end
+
+@endgantt
